@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap') ;
+
+html {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	background-color: transparent !important;
+}
+
+body {
+	font-size: 12px;
+	font-family: 'Jura', sans-serif;
+	background-color: transparent !important;
+}
+
+
+
+
+#imgserver {position:fixed;top: -3%;right: 0;left: 0;width: 210px;margin: 0 auto 0 auto;}
+#imgserver img {max-width: 85%;opacity: 0.8;}
+
+
+#hudDisplay {
+	right: 10px;
+	bottom: 50px;
+	position: absolute !important;
+}
+
+.hudText {
+	font-weight: 1400;
+	color: rgba(255,255,255,0.7);
+	position: absolute !important;
+	padding: 6px 9px;
+	font-size: 14px;
+
+	
+	text-shadow: 1px 1px rgba(0,0,0,0.8);
+	text-align: center;
+	justify-content: center;
+}
+
+.hudDisplayText {
+	font-weight: 1400;
+	color: rgba(255,255,255,0.7);
+	position: absolute !important;
+	padding: 6px 0px 1px 12px;
+	font-size: 14px;
+	
+	transform: rotate(45deg);
+	text-shadow: 1px 1px rgba(0,0,0,0.8);
+	text-align: center;
+	justify-content: center;
+}
+
+.infosBack {
+	float: left;
+	right: -128%;
+	bottom: 530px;
+	width: 500px;
+	text-align: right;
+	color: rgba(255,255,255,0.4);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(0,0,0,0.8);
+	transform: rotate(90deg);
+}
+
+.infosBack b {
+	color: rgba(255,255,255,0.5);
+}
+
+#fuelBack {
+	position: absolute;
+	bottom: 8px;
+	right: 10%;
+	float: left;
+	width: 32px;
+	height: 32px;
+	border: 0.5px solid  rgb(255, 106, 0);
+	filter: drop-shadow(0.5px 0.5px 3px #F98633);
+	background: rgba(0,0,0,0.4);
+	transform: rotate(-45deg);  
+	margin-left: 5px;
+}
+
+.fuelDisplay {
+	float: left;
+	height: 32px;
+	background: rgba(243, 116, 25, 0.8);
+}
+
+.fa-microphone { 
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.micBack {
+	position: absolute;
+	bottom: 228px;
+	right: 10%;
+	float: left;
+	width: 32px;
+	height: 32px;
+	border: 0.5px solid  rgb(249, 134, 51);
+	filter: drop-shadow(0.5px 0.5px 3px #F98633);
+	background: rgba(0,0,0,0.4);
+	transform: rotate(-45deg);  
+	margin-left: 5px;
+}
+
+
+.healthBack {
+	position: relative;
+	bottom: 500px;
+	right: -70%;
+	float: left;
+	width: 32px;
+	height: 32px;
+	border: 0.5px solid  rgb(238, 12, 12);
+	filter: drop-shadow(0.5px 0.5px 3px #ee0303);
+	background: rgba(0,0,0,0.4);
+	transform: rotate(-45deg);  
+	margin-left: 5px;
+}
+
+.healthDisplay {
+	float: left;
+	height: 32px;
+	background: linear-gradient(90deg, rgba(138,31,31,0.8) 0%, rgba(184,27,27,0.8) 50%, rgba(203,18,18,0.8) 100%);
+}
+
+.armourBack {
+	position: relative;
+	bottom: 448px;
+	right: -50%;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-left: 5px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid  rgba(238, 28, 133, 1);
+	filter: drop-shadow(0.5px 0.5px 3px rgba(238, 28, 133, 1));
+	transform: rotate(-45deg);  
+}
+
+.armourDisplay {
+	float: left;
+	height: 32px;
+	background: linear-gradient(90deg, rgba(158,43,99,0.8) 0%, rgba(177,33,104,1) 50%, rgba(214,14,112,0.8) 100%);
+	transition: all 0.9s;
+}
+
+.thirstBack {
+	position: relative;
+	bottom: 395px;
+	right: -30%;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-left: 5px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid  rgba(19, 241, 208, 1);
+	filter: drop-shadow(0.5px 0.5px 3px rgba(19, 241, 208, 1));
+	transform: rotate(-45deg);  
+}
+
+.thirstDisplay {
+	float: left;
+	height: 32px;
+
+	background: linear-gradient(90deg, rgba(25,171,150,0.8) 0%, rgba(23,193,168,0.8) 50%, rgba(19,217,188,0.8) 100%);
+	transition: all 0.9s;
+}
+
+.hungerBack {
+	position: relative;
+	bottom: 340px;
+	right: -10%;
+	float: left;
+	width:  32px;
+	height: 32px;
+	margin-left: 5px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid  rgb(238, 216, 14);
+	filter: drop-shadow(0.5px 0.5px 3px rgba(238, 216, 14, 1));
+	transform: rotate(-45deg);  
+}
+
+.hungerDisplay {
+	float: left;
+	height: 32px;
+
+
+	background: linear-gradient(90deg, rgba(172,149,20,0.8) 0%, rgba(213,185,25,0.8) 50%, rgba(255,217,0,0.8) 100%);
+	transition: all 0.9s;
+}
+
+.staminaBack {
+	position: relative;
+	bottom: 285px;
+	right: 10%;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-left: 5px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid  rgba(24, 52, 207, 0.8);
+	filter: drop-shadow(0.5px 0.5px 3px rgba(24, 52, 207, 1));
+	transform: rotate(-45deg); 
+
+}
+
+.staminaDisplay {
+	float: left;
+	height: 32px;
+	background: linear-gradient(90deg, rgba(40,56,147,1) 0%, rgba(33,58,196,1) 50%, rgba(18,48,224,1) 100%);
+	transition: all 0.9s;
+}
+
+
+
+#movieTop {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 12%;
+	background: #000;
+	position: absolute;
+	display: none;
+}
+
+#movieBottom {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 12%;
+	background: #000;
+	position: absolute;
+	display: none;
+}
+
+#carDisplay {
+	right: 80px;
+	bottom: 0px;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: right;
+	color: rgba(255,255,255,0.6);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(0,0,0,1);
+}
+
+#carDisplay b {
+	font-size: 14px;
+	font-weight: 300;
+	padding-right: 5px;
+	letter-spacing: 3px;
+	color: rgba(255,255,255,0.6);
+}
+
+#carDisplay s {
+	font-size: 14px;
+	font-weight: 300;
+	padding-right: 5px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	color: rgba(134,208,73,0.6);
+}
+
+@media only screen and (max-height: 600px) {
+
+	#hudDisplay {
+		bottom: -15%;
+	}
+
+	.fuelBack {
+		bottom: 130px;
+	}
+
+	#carDisplay {
+		bottom: 125px;
+	}
+	
+
+}
